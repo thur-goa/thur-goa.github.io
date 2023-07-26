@@ -11069,7 +11069,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url("../assets/img/bg-masthead.jpg");
+  background: url("../assets/img/bg-masthead.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11109,7 +11109,6 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
