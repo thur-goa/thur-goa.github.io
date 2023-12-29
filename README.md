@@ -1,5 +1,4 @@
 # thur-goa.github.io
 This is where I'll be displaying my personal projects.
 
-Please note that I'm not familiar with using .html and .css, so I sourced 
-the formatting of the main website page from Start Bootstrap.
+**12/28/23 Update: I'm currently learning HTML and CSS, so I'm going to be redoing this domain!
