@@ -1,9 +1,12 @@
-h1{
+h1, p{
   font-family: 'Trebuchet MS', san-serif;
   text-align: center;
+  color: #32a838;
+}
+
+h1{
   padding-top: 200px;
   font-size: 24px;
-  color: #32a838;
 }
 
 .check{
@@ -11,7 +14,6 @@ h1{
 }
 
 .copyright{
-  text-align: center;
   font-size: 14px;
   color: black;
   bottom: 0;
