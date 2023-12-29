@@ -6,6 +6,10 @@ h1{
   color: #32a838;
 }
 
+.check{
+  padding-top: 150px; !important
+}
+
 .copyright p{
   font-size: 14px;
   color: black;
