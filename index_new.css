@@ -1,10 +1,7 @@
-h1, p{
+h1{
   font-family: 'Trebuchet MS', san-serif;
   text-align: center;
   padding-top: 200px;
-}
-
-h1{
   font-size: 24px;
   color: #32a838;
 }
@@ -12,4 +9,8 @@ h1{
 .copyright p{
   font-size: 14px;
   color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
 }
