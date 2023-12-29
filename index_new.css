@@ -7,7 +7,7 @@ h1{
 }
 
 .check{
-  padding-top: 150px !important;
+  margin-top: -150px !important;
 }
 
 .copyright p{
