@@ -3,7 +3,6 @@ h1{
 }
 
 h1, p{
-  align: center;
-  padding-top: auto;
-  padding-bottom: auto;
+  font-family: 'Trebuchet MS', san-serif;
+  text-align: center;
 }
