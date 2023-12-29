@@ -1,3 +1,9 @@
 h1{
   color: #32a838;
 }
+
+h1, h2{
+  align: center;
+  padding-top: auto;
+  padding-bottom: auto;
+}
