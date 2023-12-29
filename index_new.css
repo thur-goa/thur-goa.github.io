@@ -11,6 +11,7 @@ h1{
 }
 
 .copyright p{
+  text-align: center;
   font-size: 14px;
   color: black;
   position: absolute;
