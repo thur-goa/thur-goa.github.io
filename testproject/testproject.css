@@ -1,0 +1,59 @@
+*{
+background-color: rgb(78, 64, 130)
+}
+h1, p{
+  text-align: center;
+}
+h2{
+  font-size: 19px;
+  background-color: rgb(55, 41, 99); 
+}
+h1, p, form{
+  font-family: "Trebuchet MS", san-serif;
+  color: white;
+}
+input,select,option{
+background-color: white;
+}
+.name, .email{
+  width: 200px;
+}
+form{
+  margin: 0 auto;
+  max-width: 500px;
+  width: 450px;
+  min-width: 300px;
+}
+fieldset{
+  border: none;
+}
+fieldset,label{
+  background-color: rgb(55, 41, 99); 
+}
+label{
+  display: block;
+  margin: 20px
+}
+#basic{
+  margin-bottom: -30px;
+}
+#merch-sel{
+  margin-bottom: -30px;
+}
+textarea{
+  margin: 0 auto;
+  background-color: white;
+  display: block;
+  width: 380px;
+}
+#submit{
+  background-color:  rgb(23, 17, 54);
+  color: white;
+  border: 0;
+  font-family: "Trebuchet MS", san-serif;
+  font-size: 19px;
+  text-align: center;
+  height: 40px;
+  width: 70px;
+
+}
