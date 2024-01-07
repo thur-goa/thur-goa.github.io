@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Anime Merch Order Form</h1>
+    <p id="description">Please fill out this form, to indicate which anime series you want merch of. Thank you!</p>
+  </body>
+  <body>
+    <form id="survey-form">
+<!-- Basic Information Field -->
+      <fieldset id="basic">
+        <h2>Basic Information</h2>
+        <label id="name-label" for="name">Name <input id="name" name="name" type="text" placeholder="Enter your name" required/></label>
+        <label id="email-label" for="email">Email <input id="email" name="email" type="email" placeholder="Enter your email" required/></label>
+        <label id="address-label" for="address">Address <input id="address" name="address" type="text" placeholder="Enter your address" required/></label>
+<label id="number-label" for="number">Number of Items <input id="number" name="number" type="number" min= 1 max= 5 placeholder="-"required/></label>
+      </fieldset>
+<!-- Merch Selection Field -->
+      <fieldset id="merch-sel">
+        <h2>Merch Selection</h2>
+        <label>From the dropdown, plese select an anime series
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Hunter x Hunter</option>
+            <option value="2">Jojo's Bizarre Adventure</option>
+            <option value="3">Evangelion</option>
+            <option value="4">Jujutsu Kaisen</option>
+            <option value="5">Naruto</option>
+          </select>
+        </label>
+        <label>Please select one of the merch types to be guaranteed in your order</label>
+          <label for="figure"><input id="figure" type="radio" name="type" class="inline" value="1"checked/> Figure</label>
+          <label for="print"><input id="print" type="radio" name="type" class="inline" value="2"/> Print/Poster</label>
+          <label for="pin"><input id="pin" type="radio" name="type" class="inline" value="3"/> Pin</label>
+          <label for="keychain"><input id="keychain" type="radio" name="type" class="inline" value="4"/> Keychain</label>
+      </fieldset>
+<!-- Preferences -->
+      <fieldset id="preferences">
+        <h2>Preferences</h2>
+        <label>Is this order a gift?(If yes, this order will be gift wrapped.)</label>
+          <label for="yes"><input class="inline" id="yes" type="checkbox" name="gift-op" value="1"/> Yes</label>
+          <label for="no"><input class="inline" id="no" type="checkbox" name="gift-op" value="2" /> No</label>
+          <label for="other" id="pref-desc">From the series that you've chosen, is there a particular character(s) that you'd like merch of? (If not, type "N/A")
+            <textarea id="other" name="other" rows="3" col="30" placeholder="Enter a character(s) here"></textarea></label>
+          <input id="submit" type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
