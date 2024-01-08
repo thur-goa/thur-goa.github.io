@@ -1,9 +1,18 @@
-#top-direct{
+#top-direct, button{
   color: white;
   background-color: #28255e;
   font-family: Monaco, sans-serif;
-  font-size: 10px;
+  font-size: 8px;
   margin: 0 auto;
+}
+button{
+  padding: 13px;
+  border: 0;
+  font-weight: bold;
+  font-size: 12px
+}
+.nav-button:hover{
+  background-color: black;
 }
 h1{
   display: inline-block;
