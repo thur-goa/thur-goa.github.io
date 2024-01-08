@@ -35,3 +35,10 @@ h1{
   margin-right: 25px;
 }
 /*end of navigation bar*/
+/*page contents*/
+#contents{
+  margin: 0 auto;
+  padding-top: 30px;
+  font-family: Monaco, sans-serif;
+  font-size: 12px;
+}
