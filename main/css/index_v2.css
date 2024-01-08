@@ -1,4 +1,4 @@
-/*navigation bar (uniform across all main pages*/
+/*navigation bar (uniform across all main pages)*/
 #top-direct, button{
   color: white;
   background-color: black;
@@ -35,10 +35,3 @@ h1{
   margin-right: 25px;
 }
 /*end of navigation bar*/
-/*page contents*/
-#contents{
-  margin: 0 auto;
-  padding-top: 30px;
-  font-family: Monaco, sans-serif;
-  font-size: 12px;
-}
