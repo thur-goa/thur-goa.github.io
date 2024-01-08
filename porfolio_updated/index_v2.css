@@ -1,12 +1,20 @@
 #top-direct{
-  color: #28255e;
+  color: white;
+  background-color: #28255e;
   font-family: Monaco, sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   margin: 0 auto;
 }
 h1{
   display: inline-block;
 }
-#home{
-  padding-left: 100px;
+#name-title{
+  margin-left: 25px;
+}
+.nav-button{
+  margin-left: 30px;
+  float: right
+}
+#contact{
+  margin-right: 25px;
 }
