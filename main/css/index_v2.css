@@ -1,7 +1,7 @@
 /*navigation bar (uniform across all main pages*/
 #top-direct, button{
   color: white;
-  background-color: #28255e;
+  background-color: black;
   font-family: Monaco, sans-serif;
   font-size: 9px;
   margin: 0 auto;
@@ -19,7 +19,7 @@ button{
   font-size: 15px
 }
 .nav-button:hover{
-  background-color: black;
+  background-color: #545966;
 }
 h1{
   display: inline-block;
