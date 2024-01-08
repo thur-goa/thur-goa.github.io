@@ -2,7 +2,7 @@
   color: white;
   background-color: #28255e;
   font-family: Monaco, sans-serif;
-  font-size: 8px;
+  font-size: 9px;
   margin: 0 auto;
 }
 #top-direct{
@@ -15,7 +15,7 @@ button{
   padding: 13px;
   border: 0;
   font-weight: bold;
-  font-size: 12px
+  font-size: 15px
 }
 .nav-button:hover{
   background-color: black;
