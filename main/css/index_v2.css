@@ -21,6 +21,25 @@ button{
 .nav-button:hover{
   background-color: #545966;
 }
+/*used for font responsive web change for diff devices*/
+@media screen and (min-width: 601px) {
+  #top-direct{
+    font-size: 9px;
+  }
+  button{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #top-direct {
+    font-size: 6.5px;
+    padding: 4.5px;
+  }
+  button{
+    font-size: 10px;
+  }
+}
+/*end comment*/
 h1{
   display: inline-block;
 }
