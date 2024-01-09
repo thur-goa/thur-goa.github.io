@@ -34,4 +34,11 @@ h1{
 #contact{
   margin-right: 25px;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: black;
+}
 /*end of navigation bar*/
