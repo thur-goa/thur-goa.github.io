@@ -5,3 +5,9 @@
   font-family: Monaco, sans-serif;
   font-size: 12px;
 }
+@media screen and (max-width: 600px) {
+  #contents{
+    padding-top: 20px;
+    font-size: 10px;
+  }
+}
