@@ -32,11 +32,14 @@ button{
 }
 @media screen and (max-width: 600px) {
   #top-direct {
-    font-size: 6.5px;
-    padding: 4.5px;
+    font-size: 7px;
+  }
+  #name-title{
+  margin-left: 0;
   }
   button{
-    font-size: 10px;
+    font-size: 9px;
+    padding: 12px 3px;
   }
 }
 /*end comment*/
