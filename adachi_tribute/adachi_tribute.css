@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#intro{
+  text-align: center;
+  font-family: "Courier New";
+  background-color: #fff5b8;
+}
+#intro h1{
+  padding-top: 15px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+#bottom-text{
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+#img-caption{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 13px;
+}
+#tribute-info{
+  background-color: white;
+  padding: 28px;
+  border-top: 5px solid #ffd666;
+  border-bottom: 5px solid #ffd666;
+}
+#tribute-info p{
+ max-width: 550px;
+ margin: 0 auto;
+ margin-bottom: 20px;
+}
+.bold{
+  font-weight: 600;
+}
+#tribute-info h2{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+#quote-part p{
+  color: white;
+  padding-top: 20px;
+  font-size: 13px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+#quote-part{
+  background-color: #0a0b2b;
+}
+#tribute-desc{
+  background-color: #0a0b2b;
+}
+#tribute-desc p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
