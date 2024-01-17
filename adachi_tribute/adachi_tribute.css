@@ -45,8 +45,8 @@ img{
   padding-bottom: 10px;
 }
 #quote-part p{
-  color: white;
-  padding-top: 20px;
+  color: #bdbdbd;
+  padding-top: 40px;
   font-size: 13px;
   width: 500px;
   margin: 0 auto;
@@ -65,4 +65,18 @@ img{
   margin: 0 auto;
   text-align: center;
   color: white;
+}
+@media screen and (max-width: 400px){
+  img{
+    width: 40%
+  }
+  #quote-part p{
+    font-size: 75%;
+    width: 75%;
+  }
+  #tribute-desc p{
+    font-size: 95%;
+    width: 75%;
+  }
+  }
 }
