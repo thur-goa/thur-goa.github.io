@@ -6,6 +6,9 @@
 #nav-bar{
   position: fixed;
 }
+#page-contents{
+  padding-top: 200px;
+}
 #intro{
   text-align: center;
   font-family: "Courier New";
