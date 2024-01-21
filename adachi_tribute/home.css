@@ -34,8 +34,7 @@
 #tribute-info{
   background-color: white;
   padding: 28px;
-  border-top: 5px solid #ffd666;
-  border-bottom: 5px solid #ffd666;
+  padding-top: 60px;
 }
 #tribute-info p{
  max-width: 550px;
