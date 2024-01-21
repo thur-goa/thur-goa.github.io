@@ -4,7 +4,8 @@
 }
 #nav-bar{
   font-family: "Trebuchet MS";
-  background-color: #f7d40a;
+  background: linear-gradient(
+#f7b00a 25%, #f7d40a 95%);
   position: fixed;
   left: 0;
   right: 0;
@@ -23,7 +24,8 @@ button{
   font-weight: 800px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #f7d40a;
+  background: linear-gradient(
+#f7b00a 25%, #f7d40a 95%);
   padding-top: 15px;
   padding-bottom: 16px;
 }
@@ -33,7 +35,7 @@ button{
 }
 
 button:hover{
-  background-color: #f7b50f;
+  background: #f7d40a;
   color: white;
 }
 button:active{
@@ -58,6 +60,6 @@ button:active{
     padding-right: 10px;
   }
   #bar-ani{
-    object-fit: cover;
+    height: 100%;
   }
 }
