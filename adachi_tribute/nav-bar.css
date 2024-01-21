@@ -39,7 +39,7 @@ button:active{
   background-color: white;
   color: black;
 }
-img{
+#bar-ani{
   position: absolute;
   top: 0;
   left: 0;
@@ -56,7 +56,7 @@ img{
     padding-left: 10px;
     padding-right: 10px;
   }
-  img{
+  #bar-ani{
     object-fit: cover;
   }
 }
