@@ -1,3 +1,4 @@
 # thur-goa.github.io
 
-12/28/23 Update: I'm currently learning HTML and CSS, so I'm going to be redoing this domain!
+1/20/24 Update: New porfolio website is currently under development. However, until it is finished, I will keep the old site active.
+Stay tune!
