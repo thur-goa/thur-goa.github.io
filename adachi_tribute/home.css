@@ -73,6 +73,9 @@
   text-align: center;
   color: white;
 }
+a{
+  color: black;
+}
 @media screen and (max-width: 800px){
   img{
     width: 40%
