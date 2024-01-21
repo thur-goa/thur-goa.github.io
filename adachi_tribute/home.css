@@ -3,21 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-#nav-bar{
-  position: fixed;
-}
-#page-contents{
-  padding-top: 200px;
-}
 #intro{
-  text-align: center;
   font-family: "Courier New";
   background-color: #fff5b8;
 }
-#intro h1{
-  padding-top: 15px;
+#name, #bottom-text, #img-caption, #timeline-title{
+  text-align: center;
 }
-img{
+#spacer{
+  padding-top: 50px;
+}
+#intro body{
+  margin-top: 100px;
+}
+#image{
   max-width: 100%;
   height: auto;
   margin: auto;
@@ -45,6 +44,9 @@ img{
 }
 .bold{
   font-weight: 600;
+}
+#timeline-title{
+  padding-top: 10px;
 }
 #tribute-info h2{
   font-size: 20px;
@@ -83,6 +85,5 @@ img{
   #tribute-desc p{
     font-size: 95%;
     width: 75%;
-  }
   }
 }
