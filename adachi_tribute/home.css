@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 /*home page*/
-main{
+body{
   font-family: "Courier New";
   background-color: black;
 }
@@ -23,6 +23,7 @@ main{
   opacity: 55%;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 #img-div{
   text-align: center;
@@ -31,31 +32,13 @@ main{
   position: relative;
   color: white;
   text-align: center;
-  padding: 330px 100px;
+  padding: 230px 100px;
 }
 #gif-text h1{
   font-size: 75px;
 }
-#desc1{
-  text-align: center;
-  color: black;
-  background-color: #f7d154;
-  padding-bottom: 20px;
-  font-size: 12px;
-  z-index: 10;
-}
-#adacher-quote{
-  padding: 50px 0;
-  color: black;
-  background-color: #f7d154;
-  text-align: center;
-  font-weight: 600;
-  margin: 0 auto;
-  z-index: 9;
-}
-#adacher-quote p{
-  width: 500px;
-  margin: 0 auto;
+#desc{
+  padding-top: 20px;
 }
 #spacer{
   padding: 20px;
@@ -67,20 +50,8 @@ main{
   }
   #gif-text h1{
     font-size: 35px;
+    padding-top: 150px;
     padding-right: 10px;
-  }
-  #home-gif{
-    width: 150%;
-    height: 50%;
-  }
-  #desc1{
-    font-size: 10px;
-  }
-  #adacher-quote{
-    font-size: 50%;
-  }
-  #adacher-quote p{
-  width: 350px;
   }
 }
 /*life page*/
