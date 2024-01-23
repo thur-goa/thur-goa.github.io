@@ -3,34 +3,87 @@
   padding: 0;
   box-sizing: border-box;
 }
-#intro{
+/*home page*/
+main{
   font-family: "Courier New";
-  background-color: #fff5b8;
+  background-color: black;
 }
 #name, #bottom-text, #img-caption, #timeline-title{
   text-align: center;
 }
-#spacer{
-  padding-top: 50px;
-}
-#intro body{
-  margin-top: 100px;
-}
-#image{
-  max-width: 100%;
-  height: auto;
-  margin: auto;
+#home-gif{
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
   display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  opacity: 55%;
+  width: 100%;
+  height: 100%;
 }
-#bottom-text{
+#img-div{
+  text-align: center;
+}
+#gif-text{
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 330px 100px;
+}
+#gif-text h1{
+  font-size: 75px;
+}
+#desc1{
+  text-align: center;
+  color: black;
+  background-color: #f7d154;
   padding-bottom: 20px;
+  font-size: 12px;
+  z-index: 10;
+}
+#adacher-quote{
+  padding: 50px 0;
+  color: black;
+  background-color: #f7d154;
+  text-align: center;
   font-weight: 600;
+  margin: 0 auto;
+  z-index: 9;
 }
-#img-caption{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 13px;
+#adacher-quote p{
+  width: 500px;
+  margin: 0 auto;
 }
+#spacer{
+  padding: 20px;
+}
+@media screen and (max-width: 800px){
+  #gif-text{
+  font-size: 75%;
+  padding: 154px 60px;
+  }
+  #gif-text h1{
+    font-size: 35px;
+    padding-right: 10px;
+  }
+  #home-gif{
+    width: 150%;
+    height: 50%;
+  }
+  #desc1{
+    font-size: 10px;
+  }
+  #adacher-quote{
+    font-size: 50%;
+  }
+  #adacher-quote p{
+  width: 350px;
+  }
+}
+/*life page*/
 #tribute-info{
   background-color: white;
   padding: 28px;
@@ -51,17 +104,7 @@
   font-size: 20px;
   padding-bottom: 10px;
 }
-#quote-part p{
-  color: #bdbdbd;
-  padding-top: 40px;
-  font-size: 13px;
-  width: 500px;
-  margin: 0 auto;
-  text-align: center;
-}
-#quote-part{
-  background-color: #0a0b2b;
-}
+/*learn more page*/
 #tribute-desc{
   background-color: #0a0b2b;
 }
@@ -72,20 +115,4 @@
   margin: 0 auto;
   text-align: center;
   color: white;
-}
-a{
-  color: black;
-}
-@media screen and (max-width: 800px){
-  img{
-    width: 40%
-  }
-  #quote-part p{
-    font-size: 75%;
-    width: 75%;
-  }
-  #tribute-desc p{
-    font-size: 95%;
-    width: 75%;
-  }
 }
