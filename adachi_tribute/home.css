@@ -33,7 +33,7 @@ body{
   color: white;
   text-align: center;
   padding: 280px 100px;
-  animation: fadeInAnimation ease 1.5s;
+  animation: fadeInAnimation ease 2.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
