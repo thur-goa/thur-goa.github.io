@@ -33,6 +33,17 @@ body{
   color: white;
   text-align: center;
   padding: 280px 100px;
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 #gif-text h1{
   font-size: 75px;
