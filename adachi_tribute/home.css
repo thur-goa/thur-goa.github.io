@@ -5,7 +5,7 @@
 }
 /*home page*/
 body{
-  font-family: "Courier New";
+  font-family: "Kanit", "Courier New";
   background-color: black;
 }
 #name, #bottom-text, #img-caption, #timeline-title{
@@ -32,8 +32,9 @@ body{
   position: relative;
   color: white;
   text-align: center;
+  font-family: "Kanit", "Courier New"; 
   padding: 280px 100px;
-  animation: fadeInAnimation ease 2.5s;
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -66,25 +67,84 @@ body{
   }
 }
 /*life page*/
+#top-gif img{
+  height: 50vh;
+  width: 100vw;
+  z-index: 45;
+}
+#top-text{
+  color: white;
+  font-family: "Kanit", sans-serif;
+  height: 50vh;
+  width: 50vw;
+}
+#top-text h1{
+  font-size: 50px;
+}
+#top-text h2{
+  padding-left: 16px;
+  padding-bottom: 20px;
+}
+#the-text{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+/*credit to Raman Sharma for the fade in animation*/
+.fadeInUp{animation:fadeInUp 2s ease backwards;}
+@keyframes fadeInUp{
+  0%{transform:translate(0px, 100px); opacity: 0;}
+  100%{transform:translate(0px, 0); opacity: 1;}
+}
+/*end of animation command*/
+/*timeline*/
 #tribute-info{
-  background-color: white;
-  padding: 28px;
-  padding-top: 60px;
+  background: linear-gradient(black 10%, #070930 90%);
+  text-align: center;
+}
+#birth{
+  padding-bottom: 50px;
 }
 #tribute-info p{
- max-width: 550px;
- margin: 0 auto;
- margin-bottom: 20px;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
 }
 .bold{
-  font-weight: 600;
+  font-weight: 700;
 }
-#timeline-title{
-  padding-top: 10px;
+
+#third-event img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding-left: 20px;
 }
-#tribute-info h2{
-  font-size: 20px;
-  padding-bottom: 10px;
+#fourth-event img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding-left: 20px;
+}
+#fifth-event img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding-right: 20px;
+}
+#sixth-event{
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+}
+#sixth-event img{
+  padding-top: 30px;
+  width: 420px;
+  height: 300px;
+}
+@media screen and (max-width: 800px){
+ 
+
 }
 /*learn more page*/
 #tribute-desc{
@@ -97,4 +157,4 @@ body{
   margin: 0 auto;
   text-align: center;
   color: white;
-}
+  }
