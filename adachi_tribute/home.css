@@ -102,16 +102,29 @@ body{
   background: linear-gradient(black 10%, #070930 90%);
   text-align: center;
 }
-#birth{
-  padding-bottom: 50px;
-}
 #tribute-info p{
   color: white;
   font-family: "Kanit", sans-serif;
   font-size: 30px;
+  padding-bottom: 300px;
+}
+#sixth-event p{
+  padding-bottom: 0;
+  width: 700px;
+  margin: 0 auto;
 }
 .bold{
   font-weight: 700;
+}
+#third-event, #fourth-event, #fifth-event{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+#third-spacing, #fourth-spacing, #fifth-spacing{
+  width: 450px;
 }
 
 #third-event img{
@@ -130,21 +143,72 @@ body{
   width: 300px;
   height: 300px;
   object-fit: cover;
-  padding-right: 20px;
-}
-#sixth-event{
- margin-left: auto;
- margin-right: auto;
- text-align: center;
+  padding-right: 60px;
 }
 #sixth-event img{
   padding-top: 30px;
   width: 420px;
   height: 300px;
 }
+#disclaimer{
+  background-color: #070930;
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+  color: white;
+}
+#disclaimer a{
+    color: #f7d40a;
+    text-decoration: none;
+}
 @media screen and (max-width: 800px){
- 
-
+  #top-text h1{
+  font-size: 25px;
+  }
+  #top-text h2{
+    font-size: 12px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+  }
+  #top-gif img{
+  height: 50vh;
+  width: 85vw;
+  z-index: 45;
+  }
+  #tribute-info p{
+    font-size: 12px;
+  }
+  #third-event img{
+    width: 150px;
+    height: 150px;
+  }
+  #fourth-event img{
+     width: 150px;
+    height: 150px;
+  }
+  #fifth-event img{
+    width: 150px;
+    height: 150px;
+  }
+  #third-spacing, #fourth-spacing, #fifth-spacing{
+  width: 150px;
+  }
+  #sixth-event img{
+    padding-top: 30px;
+    width: 220px;
+    height: 180px;
+  }
+  #sixth-event p{
+    width: 300px;
+  }
+  #disclaimer{
+    font-size: 8px;
+    padding-bottom: 20px;
+  }
+  #disclaimer p{
+    width: 250px;
+    margin: 0 auto;
+  }
 }
 /*learn more page*/
 #tribute-desc{
