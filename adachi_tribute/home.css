@@ -212,7 +212,7 @@ body{
 }
 /*learn more page*/
 #learn-more-intro{
-  min-height: 650px;
+  min-height: 700px;
   background-image: url("https://www.destructoid.com/wp-content/uploads/2020/12/275836-Persona-4-the-ANIMATION-17-Large-25.jpg");
   /*will fix the background in place*/
   background-attachment: fixed;
