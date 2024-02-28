@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<!--basic info & nav bar (put this on all pages)-->
+<head>
+  <title>Ruth Agorrilla - Home</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="nav-bar.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <!-- font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- sms icon link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div class="menu-button" id="top-bar">
+  <h1>Ruth Agorrilla</h1>
+  <button>Menu</button>
+</div>
+<nav>
+  <ul>
+    <a class = "nav-button"href="index.html"><li>Home</li></a>
+    <a class = "nav-button"href="projects.html"><li>Projects</li></a>
+    <a class = "nav-button"href="contact.html"><li>Contact</li></a>
+  </ul>
+</nav>
+<!--end comment-->
+<div id="bg-color">
+  <h1 id="pro-title">Projects</h1>
+  <h2 id="pro-desc">Here are all of the projects that I've worked on, and that I'm currently working on.</h2>
+  <div id="ongoing-pro">
+    <h2>Ongoing Projects</h2>
+    <div class="spacer"></div>
+    <div id="ongoing-pro-btns">
+      <a class="btn-links-blank" href="">
+        <div class="pro-btn" id="capstone-pro">
+          <div class="btn-contents">
+            <img class="pro-icon" id="capstone-icon" src="https://raw.githubusercontent.com/thur-goa/thur-goa.github.io/main/main/media/capstone_icon.jpg">
+            <h3 class="pro-title">TRW Solar Cooker Kitchen</h3>
+            <div class="border"></div>
+            <p class="pro-button-desc">UC Merced capstone project</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div id="past-pro">
+    <h2>Past Projects</h2>
+    <div class="spacer"></div>
+    <div id="past-pro-btns">
+      <a class="btn-links-blank" href="">
+        <div class="pro-btn" id="3d-solar-fan">
+          <div class="btn-contents">
+            <img class="pro-icon" id="3dfan-icon" src="https://raw.githubusercontent.com/thur-goa/thur-goa.github.io/main/main/media/fan_icon.JPG">
+            <h3 class="pro-title">Solar-Powered Fan</h3>
+            <div class="border"></div>
+            <p class="pro-button-desc">3D printed fan powered by a solar panel</p>
+          </div>
+        </div>
+      </a>
+      <a class="btn-links" href="#aq-project" id="particulate-research-btn">
+        <div class="pro-btn" id="particulate-matter">
+          <div class="btn-contents">
+            <img class="pro-icon" id="pm-icon" src="https://static-00.iconduck.com/assets.00/fire-icon-1513x2048-1ztytpky.png">
+            <h3 class="pro-title">Air Quality Research</h3>
+            <div class="border"></div>
+            <p class="pro-button-desc">Particulate matter research for the Cobian-Iñiguez Fire Laboratory</p>
+          </div>
+        </div>
+      </a>
+      <a class="btn-links" href="https://drive.google.com/file/d/1SYX5D4xNS1dr3fZhBGd74VHdY7Id7iKr/view?usp=sharing" target="_blank">
+        <div class="pro-btn" id="iawf-work">
+          <div class="btn-contents">
+            <img class="pro-icon" id="iawf-icon" src="https://pbs.twimg.com/profile_images/1334296676274593792/aCi5pu4m_400x400.jpg">
+            <h3 class="pro-title">IAWF Demographics Analysis</h3>
+            <div class="border"></div>
+            <p class="pro-button-desc">Analysis of underrepresented communities in the wildfire industry</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+      <!-- This will activate upon clicking the AQ Research Button -->
+<div id="aq-project-bg" class="hidden"></div>
+<div id="aq-project" class="hidden">
+  <div id="aq-project-popup">
+    <button id="exit-button" class="popup-btn-style">X</button>
+    <h3>Where would you like to go?</h3>
+    <a class="btn-links popup-btn-style" href="https://www.cobianresearch.com/" target="_blank"><button class="aq-button" id="lab-btn">Lab Website</button></a>
+    <a class="btn-links popup-btn-style" href="https://drive.google.com/file/d/1NnduTFOtaxWxmu1t4NVM507L6obCCil5/view?usp=sharing" target="_blank"><button class="aq-button" id="aq-doc-btn">Project Documentation</button></a>
+  </div>
+</div>
+<div id="proj-footer">
+  <footer>@ Ruth Agorrilla 2024</footer>
+</div>
+<script src="script.js">
+</script>
+</html>
